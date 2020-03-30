@@ -36,11 +36,11 @@
 
 - (void)addDelegate:(id)delegate beforeDelegate:(id)otherDelegate
 {
-    [self.multiDelegate addDelegate:self beforeDelegate:otherDelegate];
+    [self.multiDelegate addDelegate:delegate beforeDelegate:otherDelegate];
 }
 - (void)addDelegate:(id)delegate afterDelegate:(id)otherDelegate
 {
-    [self.multiDelegate addDelegate:self afterDelegate:otherDelegate];
+    [self.multiDelegate addDelegate:delegate afterDelegate:otherDelegate];
 }
 
 
