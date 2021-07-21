@@ -46,7 +46,7 @@
 
 - (void)removeMultiDelegate:(id)delegate
 {
-    [self.multiDelegate removeDelegate:self];
+    [self.multiDelegate removeDelegate:delegate];
 }
 
 - (void)removeAllDelegates
